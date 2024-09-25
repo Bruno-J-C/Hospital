@@ -8,8 +8,21 @@ namespace controlaPaciente
 {
     internal class Fila
     {
-        protected int Prioridade;
-        protected Paciente[] Vetor = new Paciente[11]; 
+        
+        protected Paciente[] pacientes = new Paciente[11];
+
+
+
+        public void VerificarPrioridade(int Prioridade) {
+            
+            
+
+        
+        
+ }
+
+
+        
 
 
     }

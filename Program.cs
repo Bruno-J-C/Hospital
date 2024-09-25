@@ -10,6 +10,11 @@ namespace controlaPaciente
     {
         static void Main(string[] args)
         {
+           /* Fila teste = new Fila();
+            Paciente p = new Paciente();
+            p.cadastra();
+            Fila.addPaciente(p);*/
+
 
         }
     }
