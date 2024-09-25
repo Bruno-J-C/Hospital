@@ -9,17 +9,37 @@ namespace controlaPaciente
     internal class Fila
     {
         
-        protected Paciente[] pacientes = new Paciente[11];
+        protected Paciente[] array = new Paciente[11];
 
+        private int VerificarPrioridade(int Prioridade) 
+        {
+            int p; //posicao
+            if (Prioridade > 2) 
+            {
+                p = 0;
+            }
 
-
-        public void VerificarPrioridade(int Prioridade) {
+            if (p < 2) 
+            {
             
             
+            }
+
+            return p;
+
 
         
         
- }
+        }
+        public void addPaciente(Paciente p) 
+        {
+            
+            this.pacientes[this.VerificarPrioridade(p.prioridade)];
+        
+        
+        }
+
+       
 
 
         

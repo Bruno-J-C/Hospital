@@ -8,30 +8,13 @@ namespace controlaPaciente
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
-<<<<<<< HEAD
-           /* Fila teste = new Fila();
-            Paciente p = new Paciente();
-            p.cadastra();
-            Fila.addPaciente(p);*/
 
-=======
-            //Console.WriteLine("Boa noite");
-            Paciente[] lista = new Paciente[11];
-
-            for (int i = 0; i < 11; i++)
-            {
-                lista[i] = new Paciente();
-            }
-            for (int n = 0; n < 11; n++)
-            {
-                lista[n].CadastrarPaciente();
-            }
+        Fila f = new Fila();
+        Paciente teste = new Paciente();
+        float.addPaciente(teste)
 
 
-            Console.ReadKey();
->>>>>>> refs/remotes/origin/master
+
 
         }
     }
