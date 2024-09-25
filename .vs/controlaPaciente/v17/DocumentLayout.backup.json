@@ -1,18 +1,31 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\",
+  "WorkspaceRootPath": "C:\\Users\\Tecnico\\source\\repos\\PastaClone\\Hospital\\",
   "Documents": [
+    {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|solutionrelative:paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
     {
       "AbsoluteMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|c:\\users\\tecnico\\desktop\\controlapaciente\\fila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|solutionrelative:fila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|solutionrelative:paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|c:\\users\\tecnico\\source\\repos\\pastaclone\\hospital\\fila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|solutionrelative:fila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|C:\\Users\\Tecnico\\source\\repos\\PastaClone\\Hospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|C:\\Users\\Tecnico\\source\\repos\\PastaClone\\Hospital\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|solutionrelative:paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> refs/remotes/origin/master
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +35,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,39 +43,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\source\\repos\\PastaClone\\Hospital\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\Program.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\source\\repos\\PastaClone\\Hospital\\Program.cs",
               "RelativeToolTip": "Program.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+>>>>>>> refs/remotes/origin/master
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T22:38:43.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T22:38:43.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+<<<<<<< HEAD
+              "DocumentIndex": 0,
+=======
+              "DocumentIndex": 2,
+>>>>>>> refs/remotes/origin/master
               "Title": "Paciente.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\source\\repos\\PastaClone\\Hospital\\Paciente.cs",
               "RelativeDocumentMoniker": "Paciente.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\Paciente.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\source\\repos\\PastaClone\\Hospital\\Paciente.cs",
               "RelativeToolTip": "Paciente.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+>>>>>>> refs/remotes/origin/master
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T22:55:26.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Fila.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\Fila.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\source\\repos\\PastaClone\\Hospital\\Fila.cs",
               "RelativeDocumentMoniker": "Fila.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\Fila.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\source\\repos\\PastaClone\\Hospital\\Fila.cs",
               "RelativeToolTip": "Fila.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+>>>>>>> refs/remotes/origin/master
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T22:44:41.533Z",
               "EditorCaption": ""

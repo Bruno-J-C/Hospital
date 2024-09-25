@@ -1,0 +1,7 @@
+C:\Users\Tecnico\source\repos\PastaClone\Hospital\bin\Debug\controlaPaciente.exe.config
+C:\Users\Tecnico\source\repos\PastaClone\Hospital\bin\Debug\controlaPaciente.exe
+C:\Users\Tecnico\source\repos\PastaClone\Hospital\bin\Debug\controlaPaciente.pdb
+C:\Users\Tecnico\source\repos\PastaClone\Hospital\obj\Debug\controlaPaciente.csproj.AssemblyReference.cache
+C:\Users\Tecnico\source\repos\PastaClone\Hospital\obj\Debug\controlaPaciente.csproj.CoreCompileInputs.cache
+C:\Users\Tecnico\source\repos\PastaClone\Hospital\obj\Debug\controlaPaciente.exe
+C:\Users\Tecnico\source\repos\PastaClone\Hospital\obj\Debug\controlaPaciente.pdb

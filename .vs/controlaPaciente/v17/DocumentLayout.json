@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|solutionrelative:paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\fila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|solutionrelative:fila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|c:\\users\\tecnico\\desktop\\controlapaciente\\fila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|solutionrelative:fila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|c:\\users\\tecnico\\desktop\\controlapaciente\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|solutionrelative:paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{610D0299-6617-46FA-AEB0-53DF939A7AB1}|controlaPaciente.csproj|C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Paciente.cs",
               "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\Paciente.cs",
               "RelativeDocumentMoniker": "Paciente.cs",
               "ToolTip": "C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\Paciente.cs",
               "RelativeToolTip": "Paciente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T22:55:26.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Fila.cs",
               "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\controlaPaciente\\Fila.cs",
               "RelativeDocumentMoniker": "Fila.cs",
