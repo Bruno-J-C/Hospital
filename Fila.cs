@@ -11,6 +11,6 @@ namespace controlaPaciente
         protected int Prioridade;
         protected Paciente[] Vetor = new Paciente[11]; 
 
-
+        
     }
 }
