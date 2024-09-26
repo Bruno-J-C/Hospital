@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +14,7 @@ namespace controlaPaciente
         private int cpf;
         private int telFamilia;
         private int telPaciente;
-        private int prioridade;
+        public int prioridade;
 
         public void CadastrarPaciente()
         {
