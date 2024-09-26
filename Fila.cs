@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,19 +10,15 @@ namespace controlaPaciente
     {
         
         protected Paciente[] array = new Paciente[11];
+        protected int n = 0;
 
         private int VerificarPrioridade(int Prioridade) 
         {
-            int p; //posicao
-            if (Prioridade > 2) 
+            int p = 0; //posicao
+            if (Prioridade == 3) 
             {
-                p = 0;
-            }
-
-            if (p < 2) 
-            {
-            
-            
+                p += this.n; //p = p + n
+                n++;
             }
 
             return p;
@@ -33,17 +29,7 @@ namespace controlaPaciente
         }
         public void addPaciente(Paciente p) 
         {
-            
-            this.pacientes[this.VerificarPrioridade(p.prioridade)];
-        
-        
-        }
-
-       
-
-
-        
-
-        
+            this.array[this.VerificarPrioridade(p.prioridade)] = p;
+        }  
     }
 }
