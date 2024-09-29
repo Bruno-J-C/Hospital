@@ -9,42 +9,54 @@ namespace controlaPaciente
     internal class Fila
     {
         
-        protected Paciente[] array = new Paciente[11];
+        protected Paciente[] array = new Paciente[11]; // os pacientes serao atendidos da ultima posicao para a primeira.
         protected int length = 0;
-        private int n = 0; //vai ajudar a verificar a prioridade do paciente.
 
+        private int p3 = 1; //(p3:prioridaed 3) vai ajudar a verificar a prioridade do paciente.
+        private int p1 = 0;
         private int VerificarPrioridade(int Prioridade) 
         {
             int p = 0; //posicao
             if (Prioridade == 3) 
             {
-                p += this.n; //p = p + n
-                n++;
+                p = this.array.Length - this.p3; 
+                p3++;
 
                 /*A ideia é que dessa forma possamos colocar mais de um paciente 
                  de prioridade 3 na fila de maneira com que primero paciente prioridade 3 
                 adicionado na fila estara na frente do segundo paciente de nivel 3 
                 adicionado e assim por diante.
                  */
+
+                if (this.array[p] is Paciente)
+                {
+                    this.array[p-1] = this.array[p];
+                }
+            }
+
+            if (Prioridade == 1) 
+            {
+                p = (this.array.Length - 1) - this.length; 
+                this.p1++;
             }
 
             return p;
-
-        
         }
         public void add(Paciente pcnt) 
         {
-            this.array[this.VerificarPrioridade(pcnt.Prioridade)] = pcnt; //this.verificarPrioridade vai retornar a posicao do paciente no array
-            this.length++;
+            this.array[this.VerificarPrioridade(pcnt.Prioridade)] = pcnt; //this.verificarPrioridade vai retornar a posicao do paciente no array.
+            this.length++; //vai contar quantos pacientes foram adicionados.
         }
 
         public void mostrar() {
-            for (int i = 0; i < this.length; i++) {
-                Console.WriteLine($"{i+1}º:{this.array[i].Nome}");
+            int l = this.array.Length; 
+            int p = l - this.length; // posicao do ultimo paciente adicionado.
+            
+            int n = 1;  
+            for (int i=l; i > p; i=i-1) {
+                Console.WriteLine($"{n}º:{this.array[i-1].Nome}");
+                n++;
             }
-        
-        
-        
         }
     }
 }

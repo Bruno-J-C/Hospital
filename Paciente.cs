@@ -38,7 +38,7 @@ namespace controlaPaciente
             this.telFamilia = Console.ReadLine();
 
 
-            Console.WriteLine("Insira o grau de prioridade, sendo 1 leve, 2 mediano e 3 grave:");
+            Console.WriteLine("Insira o grau de prioridade, sendo 1 leve,  3 grave:");
             this.Prioridade = int.Parse(Console.ReadLine());
 
         }
