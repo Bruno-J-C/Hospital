@@ -1,20 +1,25 @@
-﻿using System;
+﻿using controlaPaciente;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace controlaPaciente
+namespace Hospital
 {
     internal class Program
     {
+        static void Main(string[] args)
+        {
+            Paciente paciente = new Paciente();
+            Fila fila = new Fila();
 
-        Fila f = new Fila();
-        Paciente teste = new Paciente();
-        float.addPaciente(teste)
+            paciente.Cadastrar();
+            fila.add(paciente);
 
+            fila.mostrar();
 
-
+            Console.ReadKey();
 
         }
     }

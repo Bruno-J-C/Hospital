@@ -5,3 +5,10 @@ C:\Users\Tecnico\source\repos\PastaClone\Hospital\obj\Debug\controlaPaciente.csp
 C:\Users\Tecnico\source\repos\PastaClone\Hospital\obj\Debug\controlaPaciente.csproj.CoreCompileInputs.cache
 C:\Users\Tecnico\source\repos\PastaClone\Hospital\obj\Debug\controlaPaciente.exe
 C:\Users\Tecnico\source\repos\PastaClone\Hospital\obj\Debug\controlaPaciente.pdb
+C:\Users\kayke\OneDrive\Documentos\Hospital\obj\Debug\controlaPaciente.csproj.AssemblyReference.cache
+C:\Users\kayke\OneDrive\Documentos\Hospital\obj\Debug\controlaPaciente.csproj.CoreCompileInputs.cache
+C:\Users\kayke\OneDrive\Documentos\Hospital\obj\Debug\controlaPaciente.exe
+C:\Users\kayke\OneDrive\Documentos\Hospital\obj\Debug\controlaPaciente.pdb
+C:\Users\kayke\OneDrive\Documentos\Hospital\bin\Debug\controlaPaciente.exe.config
+C:\Users\kayke\OneDrive\Documentos\Hospital\bin\Debug\controlaPaciente.exe
+C:\Users\kayke\OneDrive\Documentos\Hospital\bin\Debug\controlaPaciente.pdb
