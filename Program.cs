@@ -11,33 +11,48 @@ namespace Hospital
     {
         static void Main(string[] args)
         {
+            var teste = ConsoleKey.R;
             Fila fila = new Fila();
+            Medico medico = new Medico();
+            medico.cadastrar();
 
-            Paciente paciente = new Paciente();
-            Paciente paciente2 = new Paciente();
-            Paciente paciente3 = new Paciente();
-            Paciente paciente4 = new Paciente();    
-            
-
-            paciente.Cadastrar();
-            paciente2.Cadastrar();
-            paciente3.Cadastrar();
-            paciente4.Cadastrar();
-
-
-            fila.add(paciente);
-            fila.add(paciente2);
-            fila.add(paciente3);
-            fila.add(paciente4);
-
-
-
-            fila.mostrar();
 
            
-            //System.ConsoleKey
-            Console.WriteLine(Console.ReadKey().Key);
-            Console.ReadKey();
+
+
+            while (teste != ConsoleKey.Q)
+            {
+                Console.WriteLine("Escreva add para adicionar paciente \nEscreva list para ver a fila de pacientes \nEscreva atender para atenter pacientes da fila");
+                string Acao = Console.ReadLine();
+
+                if (Acao == "add") 
+                {
+                    Paciente paciente = new Paciente();
+                    paciente.Cadastrar();
+                    fila.add(paciente);
+                }
+
+                if (Acao == "list") 
+                {
+                    fila.mostrar();
+                }
+
+                if (Acao == "atender") 
+                {
+                    Console.WriteLine("escreva o diagnostico");
+                    string diagnostico = Console.ReadLine();
+                    medico.atenderProximo(fila, diagnostico);
+                }
+
+                Console.WriteLine("presione q para Sair ou r para repetir as opcoes");
+                teste = Console.ReadKey(true).Key;
+                Console.WriteLine("\n");
+               
+
+
+
+
+            }
 
         }
     }

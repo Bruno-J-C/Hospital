@@ -6,14 +6,9 @@ using System.Threading.Tasks;
 
 namespace controlaPaciente
 {
-    internal class Paciente
+    internal class Paciente:Medico
     {
-
-        protected string nome;
-        public string Nome { get; private set; } // posso acessar fora da classe mas nao posso alterar. 
-
         private string TipoSang;
-        private string cpf; //cpf nao é int, pq temos caracteres como "-" e "." alem de ser considerado um numero muito grande. 
         private string telFamilia; //tel nao é int.
         private string telPaciente; // tbm nao é int.
 
@@ -22,17 +17,11 @@ namespace controlaPaciente
 
         public void Cadastrar() //o nome CadastrarPaciente() é redundante.
         {
-            Console.WriteLine("Insira o nome:");
-            this.Nome = Console.ReadLine();
-
-            Console.WriteLine("Insira o cpf:");
-            this.cpf = Console.ReadLine();
+            base.cadastrar();
 
             Console.WriteLine("Insira o tipo sanguíneo:");
             this.TipoSang = Console.ReadLine();
 
-            Console.WriteLine("Insira o telefone do paciente");
-            this.telPaciente = Console.ReadLine();
 
             Console.WriteLine("Insira o telefone de um responsável:");
             this.telFamilia = Console.ReadLine();
